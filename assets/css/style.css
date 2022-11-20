@@ -97,6 +97,7 @@ hr {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .navBar .navBar-bottom .primary-menu {
