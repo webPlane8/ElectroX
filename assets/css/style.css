@@ -73,12 +73,21 @@ hr {
     background-color: var(--theme);
 }
 
-.navBar .icon {
-    float: left;
-    /* display: inline-block; */
+.navBar .navbar-icons{
+    float: right;
+    /* padding-right: -20px !important; */
+    /* display: inline-block;
     margin: 10px 12px;
     font-size: 20px;
-    margin-right: 20px;
+    padding-right: 0px; */
+}
+.navBar .icon {
+    /* float: left; */
+    display: inline-block;
+    padding: 10px 0px;
+    padding-left: 29px;
+    font-size: 20px;
+    /* padding-right: 0px; */
 }
 
 .navBar .navBar-bottom {
@@ -117,6 +126,8 @@ hr {
 
 .navBar .navBar-bottom .message {
     font-weight: 600;
+    padding-top: 10px;
+    text-align: right;
 }
 .navBar .navBar-bottom .sub-categories ul{
 width:220px;
@@ -169,9 +180,64 @@ padding-left: 20px;
     font-size: 14px;
 }
 .main-carousal .carousel-inner{
-    height: 700px;
+    height: 450px;
 }
 .main-carousal .carousel-inner img{
-    height: inherit;
-    width: inherit;
+    height: 450px;
+   
+}
+.main-carousal .carousal-text{
+    position: absolute;
+    z-index: 999;
+    padding-left: 670px;
+    top: 50px;
+}
+.main-carousal .carousal-text .btn{
+    width: 200px;
+    height: 45px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #FED700;
+    border-color: #FED700;
+    color: #333E48;
+    box-shadow: 1px 1px 8px 2px #dfd7a9;;
+}
+.main-carousal .carousal-text h1{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 60px;
+}
+.main-carousal .carousal-text p{
+    text-transform: uppercase;
+    font-weight: bold;
+    /* line-height: 450%; */
+}
+.main-carousal .carousal-text h2{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.shopify{
+    /* display: inline-block; */
+    width: 300px;
+    height: auto;
+    float: none;
+    text-align: center;
+}
+.special-offer{
+    border-radius: 20px;
+    height: 720px;
+    border: 2px !important;
+    border-color: #FED700;
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+}
+/* .special-img{
+    width: 400px;
+    height: 400px;
+} */
+.special-offer .special-text{
+    /* display: inline; */
+    float: left;
 }
