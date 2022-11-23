@@ -217,27 +217,30 @@ padding-left: 20px;
     font-weight: bold;
     margin-top: -20px;
 }
-
 .shopify{
     /* display: inline-block; */
     width: 300px;
     height: auto;
-    float: none;
+    /* float: none; */
     text-align: center;
 }
-.special-offer{
+.special-text{
     border-radius: 20px;
-    height: 720px;
-    border: 2px !important;
-    border-color: #FED700;
-    background-color: rgb(255, 255, 255);
-    z-index: 999;
+    height: 660px;
+    border: 2px solid #FED700;    
+    background-color: #fff; 
+    margin-top: 40px;  
 }
-/* .special-img{
-    width: 400px;
-    height: 400px;
-} */
-.special-offer .special-text{
+.special-text .special-offer{
     /* display: inline; */
     float: left;
+    font-size: 26px;
+    padding-top: 7px;
+}
+.special-text .footer{
+    text-align: center;
+    padding-top: 40px;
+}
+.special-text .footer p{
+    font-size: 38px;
 }
