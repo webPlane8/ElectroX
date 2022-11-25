@@ -6,7 +6,7 @@
 
 a {
     text-decoration: none;
-    color: black;
+    /* color: black; */
 }
 a:hover {    
     color: black;
@@ -224,23 +224,74 @@ padding-left: 20px;
     /* float: none; */
     text-align: center;
 }
-.special-text{
+.special-card{
     border-radius: 20px;
     height: 660px;
     border: 2px solid #FED700;    
     background-color: #fff; 
     margin-top: 40px;  
 }
-.special-text .special-offer{
+.special-card .special-offer{
     /* display: inline; */
     float: left;
     font-size: 26px;
     padding-top: 7px;
 }
-.special-text .footer{
+.special-card .product-card-footer{
     text-align: center;
     padding-top: 40px;
+    text-align: center;
 }
-.special-text .footer p{
+.special-card .product-card-footer p{
     font-size: 38px;
+}
+.special-card .product-card-footer a{
+color: #0062c1;
+
+}
+.special-card .product-card-title{
+font-size: 16px;
+
+}
+.special-card .product-card-price{
+    display: flex;
+    justify-content: center;
+    }
+.special-card .product-card-price .price-sale{
+    color: #DE3545;
+    font-size: 36px;    
+}
+.special-card .product-card-price .price-compare{
+    color: #727272;
+    font-size: 20px;  
+    padding-top:12px;  
+}
+.special-card .product-card-footer .deal-progress .stock-sold{
+    float: left;
+}
+.special-card .product-card-footer .deal-progress .stock-available{
+    padding-left: 30px !important;   
+    text-align: right; 
+}
+.special-card .card-labels{   
+    flex-direction: column;
+    align-items: center;    
+    display: flex;
+    background-color: #FED700;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    padding-top: 10px;
+    float: right;
+    margin-top: 15px;
+}
+.special-card .card-labels .save-text{
+    display: block;
+    font-size: 14px;
+}
+
+.special-card .card-labels .percent-text{
+   display: block; 
+   font-size: 22px;
+   font-weight: bolder;
 }
