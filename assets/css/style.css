@@ -299,7 +299,7 @@ font-size: 16px;
 }
 .featured-product .product-card{
     border-right: 1px solid #bdbdbd;
-    
+    border
 }
 .featured-product .product-card .product-card-header img{
     width: 190px;
@@ -320,10 +320,12 @@ font-size: 16px;
     background-color: #FED700;
     border-radius: 50%;
    text-align: center;
-   padding-top: 10px;
+   padding-top: 12px;
    /* position: absolute; */
 }
 .featured-product .product-card-header .product-card-label{
+    float: left;
+    margin-top: 60px;
     /* position: absolute; */
       /* top: 40px; */
 }
