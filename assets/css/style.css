@@ -325,7 +325,7 @@ font-size: 16px;
 }
 .featured-product .product-card-header .product-card-label{
     /* position: absolute; */
-      top: 40px;
+      /* top: 40px; */
 }
 .featured-product .product-card-footer .product-card-price{
     display: flex;  
