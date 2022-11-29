@@ -380,6 +380,14 @@ margin-top: 30px;
     margin-top: 45px;
     
 }
+.best-deals .deals-nav .nav-link{
+    background-color: transparent !important;
+    border-radius: 20px;
+}
+.best-deals .deals-nav .nav-link.active{
+    color: #000;
+    border: 1px solid var(--theme)
+}
 .best-deals .tab-heading-2 ul{
     /* list-style: none; */
     text-align: center;
@@ -514,4 +522,8 @@ margin-top: 30px;
 .large-product-card .header .large-product-label .percent{
     font-size: 22px;
     font-weight: bolder;    
+}
+
+.best-sellers .product-carousal {
+    display: flex !important;
 }
