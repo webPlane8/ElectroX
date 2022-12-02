@@ -607,3 +607,60 @@ margin-top: 30px;
     /* margin-top: 35px; */
     align-items: center;
 }
+.shop-ad .ad-banner img{
+    width: 100%;
+    margin-top: 30px;
+}
+.featured-product .product-card .product-card-header img{
+    width: 190px;
+    height: 190px;
+    align-items: center;
+}
+.featured-product .product-card-header .title-text .sub-title{
+    font-size: 14px;
+    color: #bdbdbd;
+    padding: 0;
+    margin: 0;
+}
+.featured-product .product-card-header .title-text .product-card-title a{
+    color: #0062c1;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.featured-product .product-card-header .labels-sale{
+    height: 45px;
+    width: 45px;
+    background-color: #FED700;
+    border-radius: 50%;
+   text-align: center;
+   padding-top: 12px;
+   /* position: absolute; */
+}
+.featured-product .product-card-header .product-card-label{
+    float: left;   
+    position: absolute;   
+}
+.featured-product .product-card-footer .product-card-price{
+    display: flex;  
+    align-items: center;    
+}
+.featured-product .product-card-footer .product-card-price .price-sale{
+    color: #DE3545;
+    font-size: 22px;    
+}
+.featured-product .product-card-footer .product-card-price .price-compare{
+    color: #bdbdbd;
+    font-size: 15px;    
+}
+.featured-product .product-card-footer .product-card-price .product-icon{
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    background-color: #e6e6e6;   
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 145px;
+    position: absolute;
+} 
