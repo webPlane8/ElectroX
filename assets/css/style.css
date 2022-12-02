@@ -364,7 +364,7 @@ margin-top: 30px;
     width: 35px;
     height: 35px;
     color: #fff;
-    background-color: #bdbdbd;   
+    background-color: #e6e6e6;   
     border-radius: 50%;
     text-align: center;
     padding-top: 5px;
@@ -446,7 +446,7 @@ margin-top: 30px;
 .best-deals .product-footer .product-cart{
     width: 35px;
     height: 35px;
-    background-color: #bdbdbd;   
+    background-color: #e6e6e6;   
     border-radius: 50%;
     text-align: center;
     padding-top: 5px;
@@ -526,4 +526,84 @@ margin-top: 30px;
 
 .best-sellers .product-carousal {
     display: flex !important;
+}
+.best-sellers .product-card{
+    margin-top: 35px;
+}
+.best-sellers .product-card .product-header img{
+    width: 170px;
+    height: 170px;
+}
+.best-sellers .product-card .product-header .best-sellers-label{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: #FED700;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 10px;
+    float: left;    
+    position: absolute;
+}
+.best-sellers .product-card .product-header .percent{
+    font-size: 14px;    
+}
+.best-sellers .product-card .product-footer{
+    /* display: flex;
+    flex-direction: column; */
+    /* margin-top: 0; */
+    /* width: 57%;
+    height: 100%; */
+   float: right;
+   /* height: 550px; */
+   margin-right: 50px;
+}
+.best-sellers .product-card .product-footer .sub-title{
+    font-size: 14px;
+    color: #bdbdbd;
+}
+.best-sellers .product-card .product-footer .product-card-title a{
+    color: #0062c1;
+}
+.best-sellers .product-card .product-footer .product-card-title{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.best-sellers .product-card .product-footer .title-text{
+    margin-top: -170px;
+}
+.best-sellers .product-card .product-footer .product-card-price{
+    /* align-items: flex-end; */
+    margin-top: 90px;
+    display: flex;
+}
+.best-sellers .product-card .product-footer .price-sale{
+    color: #DE3545;
+    font-size: 20px;    
+}
+.best-sellers .product-card .product-footer .price-compare{
+    color: #bdbdbd;
+    font-size: 13px;  
+    padding-top:5px;  
+}
+.best-sellers .product-card .product-footer .product-icon{
+    width: 35px;
+    height: 35px;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 155px;
+    position: absolute;
+    color: #fff;
+}
+.best-sellers .product-card .left-seperator{
+    width: 1px;
+    height: 165px;
+    border-right: 1px solid rgb(185, 185, 185);
+    float: right;
+    /* margin-top: 35px; */
+    align-items: center;
 }
