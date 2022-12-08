@@ -41,14 +41,14 @@ hr {
 }
 
 .navBar .navbar-brand {
-    font-size: 30px;
+    width: 200px;
 }
 
-.navBar .navbar-brand::after {
+/* .navBar .navbar-brand::after {
     content: 'X';
     font-weight: bold;
     color: var(--theme);
-}
+} */
 
 .navBar input[type="text"] {
     width: 90%;
@@ -768,4 +768,20 @@ margin-top: 30px;
     font-weight: bold;
     font-size: 14px;
     float: right;
+}
+.contact-info .footer-brand img{
+    width: 225px;
+}
+.contact-info .phone .phone-icon{
+    font-size: 45px;
+    color: var(--theme);
+    /* display: inline; */
+}
+.contact-info .phone .phone-text{
+   /* position: absolute; */
+   display: flex;
+}
+.contact-info .phone .call-us-text{
+    font-size: 14px;
+    color: #727272;
 }
