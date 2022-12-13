@@ -24,10 +24,26 @@ $(document).ready(function(){
     });
 
    
-$('.multiple-items').slick({
+  $('.multiple-items').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3
+  });
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
   });
 
 });
