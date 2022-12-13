@@ -771,6 +771,7 @@ margin-top: 30px;
 }
 .contact-info .footer-brand img{
     width: 225px;
+    margin-top: 40px;
 }
 .contact-info .phone .phone-icon{
     font-size: 45px;
@@ -778,10 +779,54 @@ margin-top: 30px;
     /* display: inline; */
 }
 .contact-info .phone .phone-text{
+    margin-left: 70px;
+    margin-top: -57px;
    /* position: absolute; */
-   display: flex;
+   /* display: inline-block; */
 }
 .contact-info .phone .call-us-text{
     font-size: 14px;
     color: #727272;
 }
+.contact-info .phone .contact-number{
+    font-size: 18px;
+}
+.contact-info .phone .contact-number{
+    font-size: 18px;
+}
+.contact-info .address-info{
+    margin-top: 25px;
+}
+.contact-info .address-info .contact-info-heading{
+    font-size: 15px;
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+}
+.contact-info .address-info .address{
+    font-size: 15px;
+    color: #3b3b3b;
+}
+.footer-section{
+    margin-top: 50px;
+}
+.footer-section .footer-heading{
+    font-size: 18px;
+    color: #3b3b3b;
+}
+.footer-section .quick-list .link-item{
+    font-size: 14px;
+    color: #7c7c7c;
+    list-style: none;
+    /* text-decoration: none */
+    display: block !important;
+    width: auto;
+    margin-left: -30px;
+    line-height: 28px;
+    /* font-weight: 450; */
+}
+.footer-section .quick-list .link-item .quick-link{
+    color: #7c7c7c;
+    display: block;
+    width: auto;
+}
+  
