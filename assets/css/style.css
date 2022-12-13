@@ -806,6 +806,17 @@ margin-top: 30px;
     font-size: 15px;
     color: #3b3b3b;
 }
+/* .contact-info .icon-social-media{
+    font-size: 25px;
+    color: #3b3b3b;
+    padding-left: 10px;
+} */
+.contact-info .icon-social-media .icon-social{
+    font-size: 25px;
+    color: #3b3b3b;
+    margin-top: 25px;
+    /* padding-left: 30px; */
+}
 .footer-section{
     margin-top: 50px;
 }
@@ -828,5 +839,18 @@ margin-top: 30px;
     color: #7c7c7c;
     display: block;
     width: auto;
+}
+.bottom-footer-bar{
+    background-color: #EAEAEA;
+    margin-top: 45px;
+}
+  
+.bottom-footer-bar .coyright{
+   margin: 15px 0px 15px 0px;
+   font-size: 15px;
+}
+.bottom-footer-bar .paymnet-method{
+   margin-top: 15px;
+   text-align: right;
 }
   
