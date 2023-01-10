@@ -6,7 +6,11 @@
 
 a {
     text-decoration: none;
-    /* color: black; */
+    color: #33414C;
+}
+.top-bar .top-bar a {
+    text-decoration: none;
+    color: #33414C;
 }
 a:hover {    
     color: black;
@@ -167,7 +171,8 @@ padding-left: 20px;
 .navBar .navBar-bottom .sub-categories ul li:hover{
     font-weight: bold;
     background-color: rgb(219, 219, 219);
-    margin-left: -7px;
+    background-position: left;
+    /* margin-left: -7px; */
     width: 95%; 
      color: #000;
 }
